@@ -1,0 +1,44 @@
+<html>
+<head>
+<!--Zawartosc miedzy <head> a </head> wklej do main.scala.html przed </head> -->
+<style>
+/* tym co jestw  style sie nie przejmuj, bo to jest formatowanie wygladu, po prostu to wklej */
+#guiform button {
+	color: white;
+	background: green;
+	padding: 10px 5px;
+	display: block;
+	text-align: center;
+	font-weight: 700;
+	border: 1px solid black;
+	margin: 5px;
+	width: 100px;
+}
+#guiform button:hover {
+	color: white;
+	background: black;
+	transition: 1s all;
+
+}
+#guiform p {
+	font-size: 1.2em;
+}
+</style>
+
+</head>
+<body>
+<!--w <body></body> umieszcza sie cialo dokumentu, czyli to co widzisz, wklej to tam gdzie uwazasz ze powinno byc, pewnie w main.scala.html po else ale glowy nie dam, tak strzelam ze tam powinno sie wkleic to co sie dzieje po zalogowaniu -->
+	<form id="guiform">
+		<!--tutaj przyciski o konkretnych nuemrach identyfikacyjnych, typ "submit" okresla ze z calego formularza (<form></form>) wybrana jest kliknieta opcja -->
+		<button id="0" type="submit">Check</button>
+		<button id="2" type="submit">Bet</button>
+		<button id="3" type="submit">Raise</button>
+		<button id="4" type="submit">Call</button>
+		<button id="5" type="submit">Fold</button>
+		<button id="6" type="submit">All-in</button>
+		<p>Add Bot</p>
+		<button id="7" type="submit">Passive</button>
+		<button id="8" type="submit">Agressive</button>
+	</form>
+</body>
+</html>
